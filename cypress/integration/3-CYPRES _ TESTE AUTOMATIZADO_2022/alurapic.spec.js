@@ -25,6 +25,5 @@ describe('Usabilidade tela inicial ', () => {
     it('verifica menu clicavel tela inicial', () => {
         cy.get('.navbar-brand > .fa').click();
         cy.get('.menu-bar > .fa').should('be.visible');
-    })
-    
+    })   
 })
